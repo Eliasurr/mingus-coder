@@ -1,0 +1,24 @@
+{
+  "name": "mingus-coder",
+  "version": "1.0.0",
+  "description": "mingus-coder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch sccs/main.scss css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eliasurr/mingus-coder.git"
+  },
+  "author": "Ulises Rando",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eliasurr/mingus-coder/issues"
+  },
+  "homepage": "https://github.com/Eliasurr/mingus-coder#readme",
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
+}
