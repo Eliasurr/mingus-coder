@@ -1,0 +1,21 @@
+.navbar{
+    height: 75px;
+    width: 100%;
+    background-color: $backColor;
+    .logo{
+            width: 100px;
+            height: 60px;
+            }
+}
+
+.navbar-nav{
+    margin-right: 5%;
+    a{
+        color: $mainFontColor;
+        font-weight: $fontBold;
+        &:hover{
+            color: $mainColor;
+            text-decoration: underline;
+        }
+    }
+}
