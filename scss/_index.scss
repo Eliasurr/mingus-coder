@@ -1,3 +1,11 @@
+body{
+    background-color: #000;
+}
+
+.container{
+    background-color: $backColor;
+}
+
 .carousel{
     width: 100%;
     height: 600px;
@@ -7,8 +15,18 @@
         .carousel-item{
             .carousel-img{
                 width: 100%;
-                object-fit: contain;
             }
         }
+    }
+}
+
+.title{
+    height: 200px;
+    width: 100%;
+    .index-title{
+        color: $keyColor;
+    }
+    .index-paragraph{
+        color: $mainFontColor;
     }
 }
