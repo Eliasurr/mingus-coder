@@ -35,7 +35,14 @@ body{
     .card{
         width: 90%;
         background-color: $mainColor;
+        .card-img-top{
+            height: 300px;
+        }
         .card-body{
+            .card-title{
+                font-size: $textLg;
+                font-weight: $fontBold;
+            }
             .card-text{
                 color: $secondColor;
             }

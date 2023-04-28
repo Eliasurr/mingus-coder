@@ -52,7 +52,7 @@ body {
 }
 .title .index-paragraph {
   color: #fff;
-  font-size: 1.3em;
+  font-size: 1.1em;
   margin: 30px;
 }
 
@@ -63,6 +63,13 @@ body {
 .cards .card {
   width: 90%;
   background-color: rgb(241, 107, 30);
+}
+.cards .card .card-img-top {
+  height: 300px;
+}
+.cards .card .card-body .card-title {
+  font-size: 1.1em;
+  font-weight: 600;
 }
 .cards .card .card-body .card-text {
   color: rgb(2, 2, 31);
