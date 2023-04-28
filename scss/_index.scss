@@ -29,3 +29,16 @@ body{
     }
 }
 
+.cards{
+    height: 400px;
+    width: 100%;
+    .card{
+        width: 90%;
+        background-color: $mainColor;
+        .card-body{
+            .card-text{
+                color: $secondColor;
+            }
+        }
+    }
+}

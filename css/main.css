@@ -56,4 +56,16 @@ body {
   margin: 30px;
 }
 
+.cards {
+  height: 400px;
+  width: 100%;
+}
+.cards .card {
+  width: 90%;
+  background-color: rgb(241, 107, 30);
+}
+.cards .card .card-body .card-text {
+  color: rgb(2, 2, 31);
+}
+
 /*# sourceMappingURL=main.css.map */
