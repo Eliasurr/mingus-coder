@@ -50,3 +50,25 @@ body{
         }
     }
 }
+
+.button-shop{
+    width: 100%;
+    height: 100px;
+    .col-12{
+        .btn-shop{
+            border: none;
+            border-radius: 5px;
+            padding: 10px 30px;
+            background-color: $keyColor;
+            color: #000;
+            font-weight: $fontBold;
+            &:hover{
+                background-color: $mainColor;
+                color: $mainFontColor;
+            }
+            &:active{
+                transform: scale(.9);
+            }
+        }
+    }
+}
