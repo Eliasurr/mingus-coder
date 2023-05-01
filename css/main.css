@@ -133,4 +133,62 @@ body {
   text-decoration: underline;
 }
 
+.row-header {
+  width: 100%;
+  height: 400px;
+}
+.row-header .col-12 img {
+  height: 350px;
+  width: 100%;
+  object-fit: fill;
+}
+
+header {
+  margin-bottom: 150px;
+}
+
+.row-header-form {
+  height: 700px;
+  width: 100%;
+}
+.row-header-form .col-12 {
+  width: 100%;
+  height: 700px;
+}
+.row-header-form .col-12 h1 {
+  color: #000;
+  background-color: rgb(241, 107, 30);
+  border-radius: 5px;
+  margin: 50px;
+  width: 100%;
+}
+.row-header-form .col-12 form {
+  background-color: rgb(241, 107, 30);
+  width: 30%;
+  padding: 20px;
+  border-radius: 10px 40px;
+}
+.row-header-form .col-12 form label {
+  color: #fff;
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+.row-header-form .col-12 form textarea {
+  resize: none;
+}
+.row-header-form .col-12 form .form-btn {
+  margin: 30px;
+  border: none;
+  background-color: orangered;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.row-header-form .col-12 form .form-btn:hover {
+  background-color: rgb(2, 2, 31);
+  color: #fff;
+}
+.row-header-form .col-12 form .form-btn:active {
+  transform: scale(0.9);
+}
+
 /*# sourceMappingURL=main.css.map */
