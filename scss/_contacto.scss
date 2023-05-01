@@ -39,6 +39,15 @@ header{
             }
             textarea{
                 resize: none;
+                border-radius: 5px;
+            }
+            input{
+                border-radius: 5px;
+                border: none;
+                outline: none;
+                &:focus{
+                    border-bottom: 4px solid $secondColor;
+                }
             }
             .form-btn{
                 margin: 30px;
