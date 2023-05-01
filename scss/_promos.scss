@@ -1,0 +1,13 @@
+.promo-header{
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/headers/sanguche_header.jpg);
+    .col-12{
+        h1{
+            background-color: rgba($color: #000000, $alpha: .5);
+            width: 100%;
+            text-align: center;
+            color: $mainColor;
+        }
+    }
+}
