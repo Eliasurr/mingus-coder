@@ -176,6 +176,11 @@ header {
 .row-header-form .col-12 form textarea {
   resize: none;
   border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.row-header-form .col-12 form textarea:focus {
+  border-bottom: 4px solid rgb(2, 2, 31);
 }
 .row-header-form .col-12 form input {
   border-radius: 5px;

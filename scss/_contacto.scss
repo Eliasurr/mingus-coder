@@ -39,7 +39,12 @@ header{
             }
             textarea{
                 resize: none;
-                border-radius: 5px;
+                border-radius: 5px; 
+                border: none;
+                outline: none;
+                &:focus{
+                    border-bottom: 4px solid $secondColor;
+                }
             }
             input{
                 border-radius: 5px;
