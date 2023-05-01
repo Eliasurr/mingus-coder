@@ -11,3 +11,30 @@
         }
     }
 }
+
+.promo{
+    width: 80%;
+    height: 200px;
+    background-color: $mainColor;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    margin: 0 auto;
+    .col-12{
+        .img-promo{
+            width: 200px;
+            height: 125px;
+            border-radius: 5px;
+        }
+        .promo-text{
+            text-align: center;
+        }
+    }
+}
+
+.promo-price{
+    background-color: $secondColor;
+    border-radius: 10px;
+    color: $mainFontColor;
+    font-style: italic;
+    font-weight: bold;
+}
