@@ -176,72 +176,27 @@ body {
   font-size: 0.8em;
 }
 
-.row-header {
-  width: 100%;
-  height: 400px;
-}
-.row-header .col-12 img {
-  height: 350px;
-  width: 100%;
-  object-fit: fill;
-}
-
-.row-header-form {
-  height: 700px;
-  width: 100%;
-}
-.row-header-form .col-12 {
+.contact-form {
   width: 100%;
   height: 700px;
+  background-image: url(../img/productos/pizza_header2.JPG);
+  background-size: cover;
+  border-radius: 0 0 10px 10px;
+  border-left: 20px solid orangered;
 }
-.row-header-form .col-12 h1 {
-  color: #000;
-  background-color: rgb(241, 107, 30);
-  border-radius: 5px;
-  margin: 50px;
-  width: 100%;
+.contact-form .form {
+  width: 400px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: rgba(30, 39, 39, 0.3);
+  box-shadow: 0 5px 30px #000;
 }
-.row-header-form .col-12 form {
-  background-color: rgb(241, 107, 30);
-  width: 30%;
-  padding: 20px;
-  border-radius: 10px 40px;
-}
-.row-header-form .col-12 form label {
-  color: #fff;
-  margin: 10px 0;
-  font-size: 1.1em;
-}
-.row-header-form .col-12 form textarea {
-  resize: none;
-  border-radius: 5px;
+.contact-form .form form input,
+.contact-form .form form textarea {
   border: none;
-  outline: none;
-}
-.row-header-form .col-12 form textarea:focus {
-  border-bottom: 4px solid rgb(202, 91, 0);
-}
-.row-header-form .col-12 form input {
   border-radius: 5px;
-  border: none;
-  outline: none;
-}
-.row-header-form .col-12 form input:focus {
-  border-bottom: 4px solid rgb(202, 91, 0);
-}
-.row-header-form .col-12 form .form-btn {
-  margin: 30px;
-  border: none;
-  background-color: orangered;
-  border-radius: 5px;
-  font-weight: bold;
-}
-.row-header-form .col-12 form .form-btn:hover {
-  background-color: rgb(202, 91, 0);
-  color: #fff;
-}
-.row-header-form .col-12 form .form-btn:active {
-  transform: scale(0.9);
+  background-color: transparent;
+  border-bottom: 2px solid orangered;
 }
 
 /*# sourceMappingURL=main.css.map */
