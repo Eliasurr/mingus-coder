@@ -17,8 +17,8 @@
     height: 200px;
     background-color: $mainColor;
     border-radius: 10px;
-    border: 1px solid #fff;
     margin: 0 auto;
+    border-left: 10px solid $secondColor;
     .col-12{
         .img-promo{
             width: 200px;
@@ -27,12 +27,12 @@
         }
         .promo-text{
             text-align: center;
+            font-weight: $fontBold;
         }
     }
 }
 
 .promo-price{
-    background-color: $secondColor;
     border-radius: 10px;
     color: $mainFontColor;
     font-style: italic;

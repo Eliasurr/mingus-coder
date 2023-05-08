@@ -76,7 +76,7 @@ body {
   font-weight: 600;
 }
 .row-cards .card .card-body .card-text {
-  color: rgb(202, 91, 0);
+  color: #000;
 }
 
 .button-shop {
@@ -154,8 +154,8 @@ body {
   height: 200px;
   background-color: rgb(241, 107, 30);
   border-radius: 10px;
-  border: 1px solid #fff;
   margin: 0 auto;
+  border-left: 10px solid rgb(202, 91, 0);
 }
 .promo .col-12 .img-promo {
   width: 200px;
@@ -164,10 +164,10 @@ body {
 }
 .promo .col-12 .promo-text {
   text-align: center;
+  font-weight: 600;
 }
 
 .promo-price {
-  background-color: rgb(202, 91, 0);
   border-radius: 10px;
   color: #fff;
   font-style: italic;
