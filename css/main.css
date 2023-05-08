@@ -191,12 +191,52 @@ body {
   background-color: rgba(30, 39, 39, 0.3);
   box-shadow: 0 5px 30px #000;
 }
+.contact-form .form h1 {
+  color: #fff;
+}
 .contact-form .form form input,
 .contact-form .form form textarea {
   border: none;
   border-radius: 5px;
   background-color: transparent;
+  border-bottom: 2px solid rgb(241, 107, 30);
+  margin: 5px 0;
+  color: #000;
+  font-weight: 800;
+}
+.contact-form .form form input::placeholder,
+.contact-form .form form textarea::placeholder {
+  color: #000;
+}
+.contact-form .form form input:focus,
+.contact-form .form form textarea:focus {
+  outline: none;
+  transition: 0.3s;
   border-bottom: 2px solid orangered;
+}
+.contact-form .form form textarea {
+  border: 2px solid rgb(241, 107, 30);
+  background-color: rgba(0, 0, 0, 0.5);
+  resize: none;
+}
+.contact-form .form form textarea:focus {
+  border: 2px solid orangered;
+}
+.contact-form .form form label {
+  color: #fff;
+}
+.contact-form .form form .form-btn {
+  border: none;
+  border-radius: 10px;
+  font-weight: 900;
+  background-color: orangered;
+}
+.contact-form .form form .form-btn:hover {
+  background-color: rgb(241, 107, 30);
+  color: #fff;
+}
+.contact-form .form form .form-btn:active {
+  transform: scale(0.9);
 }
 
 /*# sourceMappingURL=main.css.map */

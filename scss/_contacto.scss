@@ -11,13 +11,51 @@
         margin: 0 auto;
         background-color: rgba(30,39,39,.3);
         box-shadow: 0 5px 30px #000;
+        h1{
+            color: $mainFontColor;
+        }
         form{
             input,
             textarea{
                 border: none;
                 border-radius: 5px;
                 background-color: transparent;
-                border-bottom: 2px solid $keyColor;
+                border-bottom: 2px solid $mainColor;
+                margin: 5px 0;
+                color: #000;
+                font-weight: 800;
+                &::placeholder{
+                    color: #000;
+                }
+                &:focus{
+                    outline: none;
+                    transition: .3s;
+                    border-bottom: 2px solid $keyColor;
+                }
+            }
+            textarea{
+                border: 2px solid $mainColor;
+                background-color: rgba(0,0,0,.5);
+                resize: none;
+                &:focus{
+                    border: 2px solid $keyColor;
+                }
+            }
+            label{
+                color: #fff;
+            }
+            .form-btn{
+                border: none;
+                border-radius: 10px;
+                font-weight: 900;
+                background-color: $keyColor;
+                &:hover{
+                    background-color: $mainColor;
+                    color: #fff;
+                }
+                &:active{
+                    transform: scale(.9);
+                }
             }
         }
     }
