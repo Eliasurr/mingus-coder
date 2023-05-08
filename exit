@@ -1,0 +1,28 @@
+[33m7012d00[m[33m ([m[1;36mHEAD -> [m[1;32mpromos[m[33m, [m[1;31morigin/promos[m[33m)[m se agregan promo 2 y promo 3
+[33md56f85f[m se agrega promo y estilo a promo 1
+[33m026d2be[m se crea Rows para las promos
+[33m6b9998a[m[33m ([m[1;31morigin/contacto[m[33m)[m se agrega header pagina promos
+[33ma4afd1b[m se setea HTML para pagina promos
+[33mc7980b3[m se agrega estilo a form
+[33ma349c8d[m se finalizo contacto
+[33m5f5b9cd[m se setea nav y footer en pagina contacto
+[33m090dfe5[m[33m ([m[1;31morigin/index[m[33m, [m[1;32mindex[m[33m)[m se finalizo footer
+[33m00f09db[m se crea primera linea de footer y se le da estilo
+[33m76788b7[m se agrega button y estilo a button
+[33m57c9919[m se agrega contenido y estilo a card II y card III
+[33m1ef4f45[m se agrego contenido a card I
+[33m23a1168[m se agrega Card I y se da estilo
+[33m26bcff4[m se crea hr y se le da estilo
+[33me09fca4[m se agrega estilo a titulo de index
+[33m58502ff[m box shadow a nav y background color a container
+[33mcbc4bab[m se agrega estilo a carousel
+[33m8741036[m se agrego estilo a Nav
+[33mf1c008c[m se agregar variables a vars.scss
+[33m2b63e9d[m se agregan archivos scss para el sitio
+[33m5a164c2[m se agrega HTML de Footer
+[33m3b9c6a3[m se agrega HTML de Header y Cards
+[33m69ba031[m se agrega HTML de Navbar
+[33m4e85463[m se agrega bs
+[33m16352ff[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m se agregan imagenes de productos
+[33m4e2f1ae[m sass seteado
+[33m4023b82[m inicia web

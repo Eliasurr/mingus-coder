@@ -27,6 +27,10 @@
   text-decoration: underline;
 }
 
+* {
+  font-family: "Lato", sans-serif;
+}
+
 body {
   background-color: #000;
 }
@@ -72,7 +76,7 @@ body {
   font-weight: 600;
 }
 .row-cards .card .card-body .card-text {
-  color: rgb(2, 2, 31);
+  color: rgb(202, 91, 0);
 }
 
 .button-shop {
@@ -163,7 +167,7 @@ body {
 }
 
 .promo-price {
-  background-color: rgb(2, 2, 31);
+  background-color: rgb(202, 91, 0);
   border-radius: 10px;
   color: #fff;
   font-style: italic;
@@ -213,7 +217,7 @@ body {
   outline: none;
 }
 .row-header-form .col-12 form textarea:focus {
-  border-bottom: 4px solid rgb(2, 2, 31);
+  border-bottom: 4px solid rgb(202, 91, 0);
 }
 .row-header-form .col-12 form input {
   border-radius: 5px;
@@ -221,7 +225,7 @@ body {
   outline: none;
 }
 .row-header-form .col-12 form input:focus {
-  border-bottom: 4px solid rgb(2, 2, 31);
+  border-bottom: 4px solid rgb(202, 91, 0);
 }
 .row-header-form .col-12 form .form-btn {
   margin: 30px;
@@ -231,7 +235,7 @@ body {
   font-weight: bold;
 }
 .row-header-form .col-12 form .form-btn:hover {
-  background-color: rgb(2, 2, 31);
+  background-color: rgb(202, 91, 0);
   color: #fff;
 }
 .row-header-form .col-12 form .form-btn:active {
