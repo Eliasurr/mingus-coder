@@ -184,6 +184,10 @@ body {
   background-position: top;
 }
 
+.map .col-md-12 h1 {
+  color: orangered;
+}
+
 .contact-form {
   width: 100%;
   height: 700px;
