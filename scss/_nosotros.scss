@@ -7,6 +7,21 @@
 }
 
 
+.title{
+    .nosotros-uno{
+        height: 200px;
+        .nosotros-uno-text{
+            margin-right: 5px;
+        }
+        .nosotros-uno-img{
+            background-image: url(../img/productos/picada2.jpg);
+            background-size: cover;
+            border-radius: 5px;
+        }
+    }
+}
+
+
 .map{
     .col-md-12{
         h1{
@@ -14,3 +29,4 @@
         }
     }
 }
+
