@@ -164,6 +164,7 @@ body {
   border: none;
   border-radius: 5px;
   outline: none;
+  width: 75px;
 }
 .shop-item .shop-item-body .shop-item-actives .shop-item-quanty:focus {
   outline: 1px solid orangered;
