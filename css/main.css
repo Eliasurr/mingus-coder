@@ -184,6 +184,10 @@ body {
   background-position: top;
 }
 
+.title .col-md-12 h1 {
+  text-decoration: underline;
+  text-decoration-color: orangered;
+}
 .title .nosotros-uno {
   height: 200px;
 }
@@ -195,7 +199,18 @@ body {
   background-size: cover;
   border-radius: 5px;
 }
+.title .nosotros-dos {
+  height: 200px;
+}
+.title .nosotros-dos .nosotros-dos-img {
+  background-image: url(../img/productos/sanguches3.webp);
+  background-size: cover;
+  border-radius: 5px;
+}
 
+.map {
+  margin-bottom: 20px;
+}
 .map .col-md-12 h1 {
   color: orangered;
 }
