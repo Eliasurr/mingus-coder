@@ -27,6 +27,12 @@
   text-decoration: underline;
 }
 
+.navbar-collapse {
+  background-color: #101010;
+  border-radius: 5px;
+  padding: 10px;
+}
+
 body {
   background-color: #000;
 }
