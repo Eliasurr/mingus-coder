@@ -45,3 +45,17 @@
         }
     }
 }
+
+
+.shop-list{
+    li{
+        background-color: $mainColor;
+        color: #fff;
+        font-weight: $fontBold;
+        border: 1px solid $keyColor;
+        &:hover{
+            cursor: pointer;
+            background-color: #101010;
+        }
+    }
+}
