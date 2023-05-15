@@ -56,6 +56,24 @@
         &:hover{
             cursor: pointer;
             background-color: #101010;
+            text-decoration: underline;
         }
+    }
+}
+
+.shop-cart{
+    width: 80px;
+    height: 80px;
+    background-color: $mainColor;
+    border-radius: 50%;
+    background-image: url(../img/iconos/shopping-cart-outline.svg);
+    background-size: cover;
+    background-position: center;
+    &:hover{
+        cursor: pointer;
+        outline: 2px solid $keyColor;
+    }
+    &:active{
+        transform: scale(.9);
     }
 }

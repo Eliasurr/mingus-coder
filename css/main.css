@@ -192,6 +192,24 @@ body {
 .shop-list li:hover {
   cursor: pointer;
   background-color: #101010;
+  text-decoration: underline;
+}
+
+.shop-cart {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(241, 107, 30);
+  border-radius: 50%;
+  background-image: url(../img/iconos/shopping-cart-outline.svg);
+  background-size: cover;
+  background-position: center;
+}
+.shop-cart:hover {
+  cursor: pointer;
+  outline: 2px solid orangered;
+}
+.shop-cart:active {
+  transform: scale(0.9);
 }
 
 .promo-header {
